@@ -9,7 +9,7 @@ touch Dockerfile
 ```
 **3rd** 
 ```
-docker build -t ubuntu-22.04-with-tmate .
+docker build -t ubuntu24.04-tmate .
 ```
 **4th** 
 ```
