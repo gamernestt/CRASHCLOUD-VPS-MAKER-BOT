@@ -453,7 +453,7 @@ async def create_server_task(interaction):
         await interaction.followup.send(embed=discord.Embed(description="```Error: Instance Limit-reached```", color=0xff0000))
         return
 
-    image = "ubuntu-22.04-with-tmate"
+    image = "ubuntu24.04-tmate"
 
     try:
         container_id = subprocess.check_output([
